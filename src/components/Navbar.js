@@ -50,44 +50,6 @@ function Navbar() {
   return (
     <div>
       <header className="header-static navbar-sticky navbar-light shadow">
-        <div
-          className="top-search collapse bg-light"
-          id="search-open"
-          data-parent="#search"
-        >
-          <div className="container">
-            <div className="row position-relative">
-              <div className="col-md-8 mx-auto py-5">
-                <form>
-                  <div className="input-group">
-                    <input
-                      className="form-control border-radius-right-0 border-right-0"
-                      type="text"
-                      name="search"
-                      /* autofocus */ placeholder="What are you looking for?"
-                    />
-                    <button
-                      type="button"
-                      className="btn btn-grad border-radius-left-0 mb-0"
-                    >
-                      Search
-                    </button>
-                  </div>
-                </form>
-                <p className="small mt-2 mb-0">
-                  <strong>e.g.</strong>Template, TravelGo, WordPress{" "}
-                </p>
-              </div>
-              <a
-                className="position-absolute top-0 right-0 mt-3 mr-3"
-                data-toggle="collapse"
-                href="#search-open"
-              >
-                <i className="fas fa-window-close"></i>
-              </a>
-            </div>
-          </div>
-        </div>
         <div className="navbar-top d-none d-lg-block">
           <div className="container">
             <div className="d-flex justify-content-between align-items-center">
@@ -276,17 +238,17 @@ function Navbar() {
                   <div className="dropdown-menu" aria-labelledby="elementsMenu">
                     <div className="container">
                       <div className="row">
-                        <div className="col-sm-6 col-lg-3">
+                        <div className="col-sm-6 col-lg-4">
                           <ul className="list-unstyled">
                             <li>
-                              <a className="dropdown-item" href="/#">
-                                Bikers Gang
+                              <a className="dropdown-item" href="international-tour-package">
+                                International Tour Packages
                               </a>
                             </li>
 
                             <li>
-                              <a className="dropdown-item" href="/#">
-                                Beach Lovers
+                              <a className="dropdown-item" href="domestic-tour-package ">
+                                Domestic Tour Packages
                               </a>
                             </li>
 
@@ -303,7 +265,7 @@ function Navbar() {
                             </li>
                           </ul>
                         </div>
-                        <div className="col-sm-6 col-lg-3">
+                        <div className="col-sm-6 col-lg-4">
                           <ul className="list-unstyled">
                             <li>
                               <a className="dropdown-item" href="/#">
@@ -331,7 +293,7 @@ function Navbar() {
                           </ul>
                         </div>
 
-                        <div className="col-sm-6 col-lg-3">
+                        <div className="col-sm-6 col-lg-4">
                           <ul className="list-unstyled">
                             <li>
                               <a className="dropdown-item" href="/#">
