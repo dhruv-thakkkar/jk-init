@@ -54,9 +54,7 @@ function Navbar() {
           <div className="container">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex align-items-center">
-                <div className="dropdown">
-                  <a
-                    className="dropdown-toggle"
+              <a
                     href="/#"
                     role="button"
                     id="dropdownLanguage"
@@ -72,38 +70,7 @@ function Navbar() {
                     />{" "}
                     India{" "}
                   </a>
-                  <div
-                    className="dropdown-menu mt-2 shadow"
-                    aria-labelledby="dropdownLanguage"
-                  >
-                    <span className="dropdown-item-text">Select country</span>
-                    <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="/#">
-                      <img
-                        className="dropdown-item-icon"
-                        src="assets/images/flag/ae.svg"
-                        alt=""
-                      />{" "}
-                      United Arab Emirates
-                    </a>
-                    <a className="dropdown-item" href="/#">
-                      <img
-                        className="dropdown-item-icon"
-                        src="assets/images/flag/uk.svg"
-                        alt=""
-                      />
-                      United Kingdom
-                    </a>
-                    <a className="dropdown-item" href="/#">
-                      <img
-                        className="dropdown-item-icon"
-                        src="assets/images/flag/fr.svg"
-                        alt=""
-                      />{" "}
-                      France
-                    </a>
-                  </div>
-                </div>
+
                 <ul className="nav list-unstyled ml-3">
                   <li className="nav-item mr-3">
                     {" "}
@@ -241,13 +208,13 @@ function Navbar() {
                         <div className="col-sm-6 col-lg-4">
                           <ul className="list-unstyled">
                             <li>
-                              <a className="dropdown-item" href="international-tour-package">
+                              <a className="dropdown-item" href="/#">
                                 International Tour Packages
                               </a>
                             </li>
 
                             <li>
-                              <a className="dropdown-item" href="domestic-tour-package ">
+                              <a className="dropdown-item" href="/# ">
                                 Domestic Tour Packages
                               </a>
                             </li>
