@@ -1,29 +1,94 @@
-import React from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-const handleSubmit = (event) => {
-  console.log(event);
-};
-const nameChange = () => {
-  console.log("xx");
-};
-const emailChange = () => {
-  console.log("yy");
-};
-const phoneChange = () => {
-  console.log("yy");
-};
 function Kachchh() {
+  const form = useRef();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phno, setPhno] = useState("");
+  const [nameErr, setNameError] = useState(false);
+  const [phError, setPhError] = useState(false);
+  const [emailMsg, setEmailMsg] = useState("");
+
+  const handleSubmit = (event) => {
+    let nmErr = true;
+    let phErr = true;
+    setEmailMsg("");
+    event.preventDefault();
+    if (!name || name.length <= 0 || name == null || name === undefined) {
+      setNameError(true);
+      nmErr = true;
+    } else {
+      nmErr = false;
+      setNameError(false);
+    }
+    if (!phno || phno == null || phno === undefined || phno.length < 10) {
+      setPhError(true);
+      phErr = true;
+    } else {
+      phErr = false;
+      setPhError(false);
+    }
+    if (!nmErr && !phErr) {
+      emailjs
+        .sendForm(
+          "service_62l1oae",
+          "template_8epk9ui",
+          form.current,
+          "fISjZfU8ZTTcW7WlU"
+        )
+        .then(
+          (result) => {
+            setEmailMsg(
+              "Successfully submitted Enquiry! A call is on its way to you."
+            );
+          },
+          (error) => {
+            setEmailMsg("Server Error. Pls Try After Sometime!");
+          }
+        )
+        .finally(() => {
+          setEmail("");
+          setName("");
+          setPhno("");
+        });
+    }
+  };
+  const nameChange = (e) => {
+    setEmailMsg("");
+    let name = e.target.value;
+    setName(name);
+    if (!name || name.length <= 0 || name == null || name === undefined) {
+      setNameError(true);
+    } else {
+      setNameError(false);
+    }
+  };
+  const emailChange = (e) => {
+    setEmailMsg("");
+    setEmail(e.target.value);
+  };
+  const phoneChange = (e) => {
+    setEmailMsg("");
+    let phNo = e.target.value;
+    setPhno(phNo);
+    if (!phNo || phNo == null || phNo === undefined || phNo.length < 10) {
+      setPhError(true);
+    } else {
+      setPhError(false);
+    }
+  };
   return (
     <div>
       <div
         id="carouselExampleControls"
-        class="carousel slide"
+        className="carousel slide"
         data-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <img
-              class="d-block w-100"
+              className="d-block w-100"
               src={
                 window.location.origin +
                 "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-1.jpg"
@@ -31,9 +96,9 @@ function Kachchh() {
               alt="Rann-Of-kachchh"
             ></img>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
-              class="d-block w-100"
+              className="d-block w-100"
               src={
                 window.location.origin +
                 "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-2.jpg"
@@ -41,9 +106,9 @@ function Kachchh() {
               alt="Rann-Of-kachchh"
             ></img>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
-              class="d-block w-100"
+              className="d-block w-100"
               src={
                 window.location.origin +
                 "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-3.jpg"
@@ -53,22 +118,22 @@ function Kachchh() {
           </div>
         </div>
         <a
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           href="#carouselExampleControls"
           role="button"
           data-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
         </a>
         <a
-          class="carousel-control-next"
+          className="carousel-control-next"
           href="#carouselExampleControls"
           role="button"
           data-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="sr-only">Next</span>
         </a>
       </div>
 
@@ -77,14 +142,14 @@ function Kachchh() {
           padding: "40px 0",
         }}
       >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-10">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-10">
               <h1
                 style={{
-                  "font-size": "2.5rem",
-                  "font-weight": "300",
-                  "line-height": "1.2",
+                  "fontSize": "2.5rem",
+                  "fontWeight": "300",
+                  "lineHeight": "1.2",
                 }}
                 className="font-weight-bold mb-3"
               >
@@ -99,7 +164,7 @@ function Kachchh() {
                     <tr>
                       <th
                         className="month-ttl"
-                        colspan="12"
+                        colSpan="12"
                         bgcolor="#f4f4f4"
                         height="44"
                       >
@@ -108,20 +173,20 @@ function Kachchh() {
                       </th>
                     </tr>
                     <tr>
-                      <td className="td-center" rowspan="2">
+                      <td className="td-center" rowSpan="2">
                         Rates (INR) Per Person
                         <strong>On Twin Sharing Basis</strong>
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         1 Night
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         2 Nights
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         3 Nights
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         4 Nights
                       </td>
                     </tr>
@@ -190,7 +255,7 @@ function Kachchh() {
                     <tr>
                       <th
                         className="month-ttl"
-                        colspan="12"
+                        colSpan="12"
                         bgcolor="#F4F4F4"
                         height="44"
                       >
@@ -200,20 +265,20 @@ function Kachchh() {
                       </th>
                     </tr>
                     <tr>
-                      <td className="td-center" rowspan="2">
+                      <td className="td-center" rowSpan="2">
                         Rates (INR) Per Person
                         <strong>On Twin Sharing Basis</strong>
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         1 Night
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         2 Nights
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         3 Nights
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         4 Nights
                       </td>
                     </tr>
@@ -285,24 +350,24 @@ function Kachchh() {
                         height="44"
                         bgcolor="#F4F4F4"
                         className="month-ttl"
-                        colspan="7"
+                        colSpan="7"
                       >
                         Tariff for Dec & Jan (23rd Dec 2022 - 31st Dec 2022) &
                         Full Moon
                       </th>
                     </tr>
                     <tr>
-                      <td className="td-center" rowspan="2">
+                      <td className="td-center" rowSpan="2">
                         Rates (INR) Per Person
                         <strong>On Twin Sharing Basis</strong>
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         1 Night / 2 Days
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         2 Nights / 3 Days
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         3 Nights / 4 Days
                       </td>
                     </tr>
@@ -397,7 +462,7 @@ function Kachchh() {
                     <tr>
                       <th
                         className="month-ttl"
-                        colspan="12"
+                        colSpan="12"
                         bgcolor="#F4F4F4"
                         height="44"
                       >
@@ -406,20 +471,20 @@ function Kachchh() {
                       </th>
                     </tr>
                     <tr>
-                      <td className="td-center" rowspan="2">
+                      <td className="td-center" rowSpan="2">
                         Rates (INR) Per Person
                         <strong>On Twin Sharing Basis</strong>
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         1 Night
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         2 Nights
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         3 Nights
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         4 Nights
                       </td>
                     </tr>
@@ -489,7 +554,7 @@ function Kachchh() {
                     <tr>
                       <th
                         className="month-ttl"
-                        colspan="12"
+                        colSpan="12"
                         bgcolor="#F4F4F4"
                         height="44"
                       >
@@ -497,19 +562,19 @@ function Kachchh() {
                       </th>
                     </tr>
                     <tr>
-                      <td className="td-center" rowspan="2">
+                      <td className="td-center" rowSpan="2">
                         Rates (INR)
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         1 Night
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         2 Nights
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         3 Nights
                       </td>
-                      <td className="td-center" colspan="2">
+                      <td className="td-center" colSpan="2">
                         4 Nights
                       </td>
                     </tr>
@@ -561,55 +626,73 @@ function Kachchh() {
             <div className="col-12">
               <h2
                 style={{
-                  "font-size": "2rem",
-                  "font-weight": "300",
-                  "line-height": "1.2",
+                  "fontSize": "2rem",
+                  "fontWeight": "300",
+                  "lineHeight": "1.2",
                 }}
                 className=" font-weight-bold mb-5 text-warning"
               >
                 Submit Your Enquiry Here...
               </h2>
               <div className="title">
-                <form class="needs-validation">
-                  <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                      <label for="validationTooltip01">Name</label>
+                <form ref={form} onSubmit={handleSubmit}>
+                  <div className="form-row">
+                    <div className="col-md-6 mb-3">
+                      <label htmlFor="validationTooltip01">Name</label>
                       <input
+                        name="name"
                         onChange={nameChange}
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="validationTooltip01"
                         placeholder="Enter Your Name Here"
-                        required
+                        value={name}
                       ></input>
-                      <div class="valid-tooltip">Looks good!</div>
+                      {nameErr ? (
+                        <p className="ml-2 text-danger">Name Is Required</p>
+                      ) : (
+                        ""
+                      )}
                     </div>
-                    <div class="col-md-6 mb-3">
-                      <label for="validationTooltip02">Phone Number</label>
+                    <div className="col-md-6 mb-3">
+                      <label htmlFor="validationTooltip02">Phone Number</label>
                       <input
-                        class="form-control"
-                        id="validationTooltip01"
+                        name="phno"
+                        className="form-control"
                         placeholder="Enter Your Phone Number Here"
-                        required
                         onChange={phoneChange}
+                        value={phno}
                       ></input>
-                      <div class="valid-tooltip">Looks good!</div>
+                      {phError ? (
+                        <p className="ml-2 text-danger">Invalid Phone Number</p>
+                      ) : (
+                        ""
+                      )}
                     </div>
-                    <div class="col-md-6 mb-3">
-                      <label for="validationTooltip02">Email Address</label>
+                    <div className="col-md-6 mb-3">
+                      <label htmlFor="validationTooltip02">Email Address</label>
                       <input
+                        name="email"
+                        value={email}
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="validationTooltip01"
                         placeholder="Enter Your Email Here"
                         onChange={emailChange}
                       ></input>
-                      <div class="valid-tooltip">Looks good!</div>
+                      <div className="valid-tooltip">Looks good!</div>
                     </div>
                   </div>
-                  <button class="btn btn-primary" onClick={handleSubmit}>
-                    Submit
-                  </button>
+                  <input
+                    className="btn btn-primary"
+                    type="submit"
+                    value="Send"
+                  />
+                  {emailMsg ? (
+                    <p className="text-success bold display-8">{emailMsg}</p>
+                  ) : (
+                    ""
+                  )}
                 </form>
               </div>
             </div>

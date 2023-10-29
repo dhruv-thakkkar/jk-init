@@ -54,22 +54,22 @@ function Navbar() {
           <div className="container">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex align-items-center">
-              <a
-                    href="/#"
-                    role="button"
-                    id="dropdownLanguage"
-                    data-toggle="dropdown"
-                    /* aria-haspopup="true" */
-                    aria-expanded="false"
-                  >
-                    {" "}
-                    <img
-                      className="dropdown-item-icon"
-                      src="assets/images/flag/in.svg"
-                      alt=""
-                    />{" "}
-                    India{" "}
-                  </a>
+                <a
+                  href="/#"
+                  role="button"
+                  id="dropdownLanguage"
+                  data-toggle="dropdown"
+                  /* aria-haspopup="true" */
+                  aria-expanded="false"
+                >
+                  {" "}
+                  <img
+                    className="dropdown-item-icon"
+                    src="assets/images/flag/in.svg"
+                    alt=""
+                  />{" "}
+                  India{" "}
+                </a>
 
                 <ul className="nav list-unstyled ml-3">
                   <li className="nav-item mr-3">
@@ -208,9 +208,13 @@ function Navbar() {
                         <div className="col-sm-6 col-lg-4">
                           <ul className="list-unstyled">
                             <li>
-                              <a className="dropdown-item" href="/white-rann-of-kachchh">
+                              <Link
+                                id="demosMenu1"
+                                className="dropdown-item"
+                                to="/white-rann-of-kachchh"
+                              >
                                 White Rann Of Kachchh
-                              </a>
+                              </Link>
                             </li>
 
                             <li>
