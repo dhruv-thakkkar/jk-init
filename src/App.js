@@ -11,7 +11,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="white" element={<Kachchh />} />
+        <Route path="white-rann-of-kachchh" element={<Kachchh />} />
       </Routes>
       <Footer />
     </BrowserRouter>
