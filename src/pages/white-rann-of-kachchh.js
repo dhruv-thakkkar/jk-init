@@ -675,7 +675,7 @@ function Kachchh() {
                         ""
                       )}
                     </div>
-                    <div className="col-md-6 mb-3">
+                    <div className="col-md-5 mb-3">
                       <label htmlFor="validationTooltip02">Email Address</label>
                       <input
                         name="email"
@@ -688,7 +688,7 @@ function Kachchh() {
                       ></input>
                       <div className="valid-tooltip">Looks good!</div>
                     </div>
-                    <div className="col-md-3 mb-3">
+                    <div className="col-md-2 mb-3">
                       Adult
                       <select
                         name="adult"
@@ -708,7 +708,7 @@ function Kachchh() {
                         <option value="8">Large Group</option>
                       </select>
                     </div>
-                    <div className="col-md-3 mb-3">
+                    <div className="col-md-2 mb-3">
                       Child
                       <select
                         name="child"
@@ -729,6 +729,21 @@ function Kachchh() {
                         <option value="8">Large Group</option>
                       </select>
                     </div>
+                    <div className="col-md-3 mb-3">
+                        <div className="form-group">
+                          <label htmlFor="validationTooltip01">Est. Check-in Date</label>
+                          <input
+                            value="01-11-2023"
+                            name="date"
+                            className="form-control"
+                            type="text"
+                            id="datepicker-8"
+                            autoComplete="off"
+                            placeholder="Check-in"
+                          />
+                        </div>
+                      </div>
+
                   </div>
                   <input
                     className="btn btn-primary"

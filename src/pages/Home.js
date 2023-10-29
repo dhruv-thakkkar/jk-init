@@ -400,13 +400,11 @@ function Home() {
         </div>
       </section>
 
-
       <section className="service pt80 pb80 service-home">
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-8 mx-auto">
-              <div className="title text-center">
-              </div>
+              <div className="title text-center"></div>
             </div>
           </div>
           <div className="row">
@@ -417,7 +415,9 @@ function Home() {
                 </div>
                 <h3 className="feature-box-title">Best Travel Agent</h3>
                 <p className="feature-box-desc">
-                  Get best tour travel packages in reasonable price all over india. Customize your pacakge, get rental cars, book you rooms and hotels.
+                  Get best tour travel packages in reasonable price all over
+                  india. Customize your pacakge, get rental cars, book you rooms
+                  and hotels.
                 </p>
               </div>
             </div>
@@ -428,7 +428,10 @@ function Home() {
                 </div>
                 <h3 className="feature-box-title">Flight Bookings</h3>
                 <p className="feature-box-desc">
-                The best flight booking is one that offers the most convenient itinerary at the lowest price, with flexible cancellation and change policies.                </p>
+                  The best flight booking is one that offers the most convenient
+                  itinerary at the lowest price, with flexible cancellation and
+                  change policies.{" "}
+                </p>
               </div>
             </div>
             <div className="col-md-4 mt-30">
@@ -438,13 +441,14 @@ function Home() {
                 </div>
                 <h3 className="feature-box-title">Best Price Guarantee</h3>
                 <p className="feature-box-desc">
-                We provide a seamless and hassle-free booking experience, with competitive prices and excellent customer service. </p>
+                  We provide a seamless and hassle-free booking experience, with
+                  competitive prices and excellent customer service.{" "}
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-
     </div>
   );
 }

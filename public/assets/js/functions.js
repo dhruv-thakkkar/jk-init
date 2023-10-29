@@ -120,6 +120,10 @@ jQuery( function() {
 		dateFormat: "dd-mm-yy"
 		,	duration: "fast"
 	});		
+	jQuery( "#datepicker-8" ).datepicker({
+		dateFormat: "dd-mm-yy"
+		,	duration: "fast"
+	});		
 	
 	
 	
