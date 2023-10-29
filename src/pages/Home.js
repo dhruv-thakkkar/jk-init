@@ -30,7 +30,7 @@ function Home() {
             <div className="col-md-8 mb-7">
               <h4>JK TRAVEL WORLD</h4>
               <h1 className="display-4 font-weight-bold">
-                Best Tour Travel Agency In Ahmedabad.
+              Top Tour And Travel Agency In Ahmedabad.
               </h1>
             </div>
           </div>
@@ -415,7 +415,7 @@ function Home() {
                 </div>
                 <h3 className="feature-box-title">Best Travel Agent</h3>
                 <p className="feature-box-desc">
-                  Get best tour travel packages in reasonable price all over
+                  Get best tour top travel packages in reasonable price all over
                   india. Customize your pacakge, get rental cars, book you rooms
                   and hotels.
                 </p>
