@@ -208,6 +208,12 @@ function Navbar() {
                         <div className="col-sm-6 col-lg-4">
                           <ul className="list-unstyled">
                             <li>
+                              <a className="dropdown-item" href="/white-rann-of-kachchh">
+                                White Rann Of Kachchh
+                              </a>
+                            </li>
+
+                            <li>
                               <a className="dropdown-item" href="/#">
                                 International Tour Packages
                               </a>
