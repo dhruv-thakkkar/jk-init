@@ -9,7 +9,6 @@ function Kachchh() {
   const [nameErr, setNameError] = useState(false);
   const [phError, setPhError] = useState(false);
   const [emailMsg, setEmailMsg] = useState("");
-
   const handleSubmit = (event) => {
     let nmErr = true;
     let phErr = true;
@@ -688,6 +687,21 @@ function Kachchh() {
                       ></input>
                       <div className="valid-tooltip">Looks good!</div>
                     </div>
+                    <div className="col-md-3 mb-3">
+                      <div className="form-group">
+                        <label htmlFor="validationTooltip01">
+                          Est. Check-in Date
+                        </label>
+                        <input
+                          name="date"
+                          className="form-control"
+                          type="text"
+                          id="datepicker-8"
+                          autoComplete="off"
+                          placeholder="Check-in"
+                        />
+                      </div>
+                    </div>
                     <div className="col-md-2 mb-3">
                       Adult
                       <select
@@ -729,21 +743,6 @@ function Kachchh() {
                         <option value="8">Large Group</option>
                       </select>
                     </div>
-                    <div className="col-md-3 mb-3">
-                        <div className="form-group">
-                          <label htmlFor="validationTooltip01">Est. Check-in Date</label>
-                          <input
-                            value="01-11-2023"
-                            name="date"
-                            className="form-control"
-                            type="text"
-                            id="datepicker-8"
-                            autoComplete="off"
-                            placeholder="Check-in"
-                          />
-                        </div>
-                      </div>
-
                   </div>
                   <input
                     className="btn btn-primary"

@@ -213,7 +213,7 @@ function Navbar() {
                                 className="dropdown-item"
                                 to="/white-rann-of-kachchh"
                               >
-                                White Rann Of Kachchh
+                                White Rann Of Kachchh (Rann Utsav)
                               </Link>
                             </li>
 
