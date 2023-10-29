@@ -77,10 +77,10 @@ function Kachchh() {
               >
                 <u>Rann Utsav Package 2023-24</u>
               </h1>
-              <div className="" >
+              <div className="">
                 <table
-                  className="table border"
-                  style={{ background: "#f8f9fa",minWidth:"100px",overflow:"auto" }}
+                  className="table table-striped table-bordered"
+                  style={{ minWidth: "100px", overflow: "auto" }}
                 >
                   <thead>
                     <tr>
@@ -171,7 +171,7 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  className="mt-5 table border" /* style="width: 100%; background: white;" */
+                  className="mt-5 table table-striped table-bordered" /* style="width: 100%; background: white;" */
                 >
                   <thead>
                     <tr>
@@ -263,8 +263,8 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  style={{ background: "#f8f9fa" }}
-                  className="border mt-5 table border" /* style="width:100%; background:white;" */
+                  style={{}}
+                  className="table-bordered mt-5 table table-striped table-bordered" /* style="width:100%; background:white;" */
                 >
                   <thead>
                     <tr>
@@ -378,7 +378,7 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  className="table border border mt-5" /* style="width: 100%; background: white;" */
+                  className="table table-striped table-bordered mt-5" /* style="width: 100%; background: white;" */
                 >
                   <thead>
                     <tr>
@@ -469,8 +469,8 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  style={{ background: "#f8f9fa" }}
-                  className="table border border mt-5" /* style="width: 100%; background: white;" */
+                  style={{}}
+                  className="table table-striped table-bordered mt-5" /* style="width: 100%; background: white;" */
                 >
                   <thead>
                     <tr>
@@ -542,7 +542,7 @@ function Kachchh() {
         </div>
       </section>
 
-      <section style={{ background: "#f8f9fa", padding: "50px 0" }}>
+      <section style={{ padding: "50px 0", background: "#f8f9fa" }}>
         <div className="container">
           <div className="row">
             <div className="col-12">
