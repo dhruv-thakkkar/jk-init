@@ -1,32 +1,64 @@
 import React from "react";
-import SimpleImageSlider from "react-simple-image-slider";
-const images = [
-  {
-    url:
-      window.location.origin +
-      "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-1.jpg",
-  },
-  {
-    url:
-      window.location.origin +
-      "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-2.jpg",
-  },
-  {
-    url:
-      window.location.origin +
-      "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-3.jpg",
-  },
-];
 function Kachchh() {
   return (
     <div>
-      <SimpleImageSlider
-        width={1348}
-        height={400}
-        images={images}
-        showBullets={true}
-        showNavs={true}
-      />
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src={
+                window.location.origin +
+                "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-1.jpg"
+              }
+              alt="Rann-Of-kachchh"
+            ></img>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src={
+                window.location.origin +
+                "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-2.jpg"
+              }
+              alt="Rann-Of-kachchh"
+            ></img>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src={
+                window.location.origin +
+                "/assets/images/rann-of-kachchh/rann-of-kachchh-jk-3.jpg"
+              }
+              alt="Rann-Of-kachchh"
+            ></img>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
       <section
         style={{
           padding: "40px 0",
@@ -45,8 +77,11 @@ function Kachchh() {
               >
                 <u>Rann Utsav Package 2023-24</u>
               </h1>
-              <div className="table" /* style="overflow: scroll;" */>
-                <table style={{ background: "#f8f9fa" }} className="border">
+              <div className="" >
+                <table
+                  className="table border"
+                  style={{ background: "#f8f9fa",minWidth:"100px",overflow:"auto" }}
+                >
                   <thead>
                     <tr>
                       <th
@@ -136,7 +171,7 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  className="mt-5 border" /* style="width: 100%; background: white;" */
+                  className="mt-5 table border" /* style="width: 100%; background: white;" */
                 >
                   <thead>
                     <tr>
@@ -229,7 +264,7 @@ function Kachchh() {
                 </table>
                 <table
                   style={{ background: "#f8f9fa" }}
-                  className="border mt-5" /* style="width:100%; background:white;" */
+                  className="border mt-5 table border" /* style="width:100%; background:white;" */
                 >
                   <thead>
                     <tr>
@@ -343,7 +378,7 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  className="border mt-5" /* style="width: 100%; background: white;" */
+                  className="table border border mt-5" /* style="width: 100%; background: white;" */
                 >
                   <thead>
                     <tr>
@@ -435,7 +470,7 @@ function Kachchh() {
                 </table>
                 <table
                   style={{ background: "#f8f9fa" }}
-                  className="border mt-5" /* style="width: 100%; background: white;" */
+                  className="table border border mt-5" /* style="width: 100%; background: white;" */
                 >
                   <thead>
                     <tr>
