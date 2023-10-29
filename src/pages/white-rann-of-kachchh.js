@@ -1,4 +1,17 @@
 import React from "react";
+
+const handleSubmit = (event) => {
+  console.log(event);
+};
+const nameChange = () => {
+  console.log("xx");
+};
+const emailChange = () => {
+  console.log("yy");
+};
+const phoneChange = () => {
+  console.log("yy");
+};
 function Kachchh() {
   return (
     <div>
@@ -77,10 +90,10 @@ function Kachchh() {
               >
                 <u>Rann Utsav Package 2023-24</u>
               </h1>
-              <div className="">
+              <div className="" style={{ overflow: "auto" }}>
                 <table
                   className="table table-striped table-bordered"
-                  style={{ minWidth: "100px", overflow: "auto" }}
+                  style={{ minWidth: "100px" }}
                 >
                   <thead>
                     <tr>
@@ -557,16 +570,16 @@ function Kachchh() {
                 Submit Your Enquiry Here...
               </h2>
               <div className="title">
-                <form class="needs-validation" novalidate>
+                <form class="needs-validation">
                   <div class="form-row">
                     <div class="col-md-6 mb-3">
                       <label for="validationTooltip01">Name</label>
                       <input
+                        onChange={nameChange}
                         type="text"
                         class="form-control"
                         id="validationTooltip01"
                         placeholder="Enter Your Name Here"
-                        value=""
                         required
                       ></input>
                       <div class="valid-tooltip">Looks good!</div>
@@ -574,12 +587,11 @@ function Kachchh() {
                     <div class="col-md-6 mb-3">
                       <label for="validationTooltip02">Phone Number</label>
                       <input
-                        type="email"
                         class="form-control"
                         id="validationTooltip01"
                         placeholder="Enter Your Phone Number Here"
-                        value=""
                         required
+                        onChange={phoneChange}
                       ></input>
                       <div class="valid-tooltip">Looks good!</div>
                     </div>
@@ -590,12 +602,12 @@ function Kachchh() {
                         class="form-control"
                         id="validationTooltip01"
                         placeholder="Enter Your Email Here"
-                        value=""
+                        onChange={emailChange}
                       ></input>
                       <div class="valid-tooltip">Looks good!</div>
                     </div>
                   </div>
-                  <button class="btn btn-primary" type="submit">
+                  <button class="btn btn-primary" onClick={handleSubmit}>
                     Submit
                   </button>
                 </form>
