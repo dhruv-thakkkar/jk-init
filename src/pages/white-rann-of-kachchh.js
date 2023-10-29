@@ -123,7 +123,10 @@ function Kachchh() {
           role="button"
           data-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="sr-only">Previous</span>
         </a>
         <a
@@ -132,7 +135,10 @@ function Kachchh() {
           role="button"
           data-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="sr-only">Next</span>
         </a>
       </div>
@@ -147,9 +153,9 @@ function Kachchh() {
             <div className="col-10">
               <h1
                 style={{
-                  "fontSize": "2.5rem",
-                  "fontWeight": "300",
-                  "lineHeight": "1.2",
+                  fontSize: "2.5rem",
+                  fontWeight: "300",
+                  lineHeight: "1.2",
                 }}
                 className="font-weight-bold mb-3"
               >
@@ -626,9 +632,9 @@ function Kachchh() {
             <div className="col-12">
               <h2
                 style={{
-                  "fontSize": "2rem",
-                  "fontWeight": "300",
-                  "lineHeight": "1.2",
+                  fontSize: "2rem",
+                  fontWeight: "300",
+                  lineHeight: "1.2",
                 }}
                 className=" font-weight-bold mb-5 text-warning"
               >
@@ -681,6 +687,49 @@ function Kachchh() {
                         onChange={emailChange}
                       ></input>
                       <div className="valid-tooltip">Looks good!</div>
+                    </div>
+                    <div className="col-md-3 mb-3">
+                      Adult
+                      <select
+                        name="adult"
+                        className="custom-select select-big"
+                        style={{ height: "40.4px" }}
+                      >
+                        <option defaultValue="1">1</option>
+                        <option value="2">2</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="8">9</option>
+                        <option value="8">10</option>
+                        <option value="8">Large Group</option>
+                      </select>
+                    </div>
+                    <div className="col-md-3 mb-3">
+                      Child
+                      <select
+                        name="child"
+                        className="custom-select select-big"
+                        style={{ height: "40.4px" }}
+                      >
+                        <option defaultValue="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="8">9</option>
+                        <option value="8">10</option>
+                        <option value="8">Large Group</option>
+                      </select>
                     </div>
                   </div>
                   <input
