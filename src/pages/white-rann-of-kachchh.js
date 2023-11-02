@@ -254,7 +254,8 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  className="mt-5 table table-striped table-bordered" /* style="width: 100%; background: white;" */
+                  className="table table-striped table-bordered"
+                  style={{ minWidth: "100px" }}
                 >
                   <thead>
                     <tr>
@@ -345,10 +346,7 @@ function Kachchh() {
                     </tr>
                   </tbody>
                 </table>
-                <table
-                  style={{}}
-                  className="table-bordered mt-5 table table-striped table-bordered" /* style="width:100%; background:white;" */
-                >
+                <table className="table-bordered mt-5 table table-striped table-bordered">
                   <thead>
                     <tr>
                       <th
@@ -461,7 +459,8 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  className="table table-striped table-bordered mt-5" /* style="width: 100%; background: white;" */
+                  className="table table-striped table-bordered"
+                  style={{ minWidth: "100px" }}
                 >
                   <thead>
                     <tr>
@@ -552,8 +551,8 @@ function Kachchh() {
                   </tbody>
                 </table>
                 <table
-                  style={{}}
-                  className="table table-striped table-bordered mt-5" /* style="width: 100%; background: white;" */
+                  className="table table-striped table-bordered"
+                  style={{ minWidth: "100px" }}
                 >
                   <thead>
                     <tr>
@@ -619,7 +618,7 @@ function Kachchh() {
                     </tr>
                   </tbody>
                 </table>
-              </div>{" "}
+              </div>
             </div>
           </div>
         </div>

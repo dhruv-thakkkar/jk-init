@@ -192,7 +192,16 @@ function Navbar() {
                     Home
                   </Link>
                 </li>
-                <li className="nav-item dropdown megamenu">
+                <li className="nav-item active">
+                  <Link
+                    id="demosMenu1"
+                    className="nav-link"
+                    to="/white-rann-of-kachchh"
+                  >
+                    White Rann Of Kachchh (Rann Utsav)
+                  </Link>
+                </li>
+                {/* <li className="nav-item dropdown megamenu">
                   <a
                     className="nav-link dropdown-toggle"
                     href="!#"
@@ -300,12 +309,12 @@ function Navbar() {
                       </div>
                     </div>
                   </div>
-                </li>
-                <li className="nav-item ">
+                </li> */}
+                {/* <li className="nav-item ">
                   <Link id="demosMenu2" className="nav-link" to="/#">
                     About
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="navbar-nav">
