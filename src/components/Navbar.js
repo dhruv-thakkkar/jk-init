@@ -1,10 +1,7 @@
-import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Cookies } from "react-cookie";
-import axios from "axios";
 
 const cookies = new Cookies();
-//cookies.remove('token');
 const getToken = cookies.get("token");
 const LogoutHandler = () => {
   cookies.remove("token");
@@ -16,37 +13,6 @@ if (userDetails) {
   AccountText = userDetails.firstName;
 }
 function Navbar() {
-  const [newCategory, SetCategory] = useState([]);
-  const fetchData = () => {
-    let finalCat = [];
-
-    let Categories = [];
-    var url = "http://localhost:3000/api/v1/categories/get";
-    //let newCategory = [];
-    axios
-      .post(url, "")
-      .then((response) => {
-        if (response.data) {
-          if (response.data.data.length > 0) {
-            Categories = response.data.data;
-            let ceel = Math.ceil(Categories.length / 5);
-            for (let i = 0; i < ceel; i++) {
-              finalCat.push(Categories.splice(0, ceel + 1));
-            }
-            SetCategory((e) => finalCat);
-          }
-        }
-      })
-      .catch((error) => {
-        if (error.response) {
-          //setErrors(error?.response?.data?.data);
-        }
-      });
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
   return (
     <div>
       <header className="header-static navbar-sticky navbar-light shadow">
@@ -192,7 +158,7 @@ function Navbar() {
                     Home
                   </Link>
                 </li>
-                <li className="nav-item active">
+                <li className="nav-item">
                   <Link
                     id="demosMenu1"
                     className="nav-link"
