@@ -173,8 +173,11 @@ function Kachchh() {
                         bgcolor="#f4f4f4"
                         height="44"
                       >
-                        Tariff for Nov 2023 &amp; Feb 2024 (Excluding Full moon
-                        &amp; Diwali)
+                        <p className="text-center">
+                          {" "}
+                          Tariff for Nov 2023 &amp; Feb 2024 (Excluding Full
+                          moon &amp; Diwali)
+                        </p>
                       </th>
                     </tr>
                     <tr>
@@ -265,9 +268,12 @@ function Kachchh() {
                         bgcolor="#F4F4F4"
                         height="44"
                       >
-                        Tariff for Nov &amp; Feb (Fullmoon &amp; Diwali: 10-18th
-                        Nov) I Dec &amp; Jan (Excluding Full Moon &amp;
-                        Christmas)
+                        <p className="text-center">
+                          {" "}
+                          Tariff for Nov &amp; Feb (Fullmoon &amp; Diwali:
+                          10-18th Nov) I Dec &amp; Jan (Excluding Full Moon
+                          &amp; Christmas)
+                        </p>
                       </th>
                     </tr>
                     <tr>
@@ -346,118 +352,6 @@ function Kachchh() {
                     </tr>
                   </tbody>
                 </table>
-                <table className="table-bordered mt-5 table table-striped table-bordered">
-                  <thead>
-                    <tr>
-                      <th
-                        height="44"
-                        bgcolor="#F4F4F4"
-                        className="month-ttl"
-                        colSpan="7"
-                      >
-                        Tariff for Dec & Jan (23rd Dec 2022 - 31st Dec 2022) &
-                        Full Moon
-                      </th>
-                    </tr>
-                    <tr>
-                      <td className="td-center" rowSpan="2">
-                        Rates (INR) Per Person
-                        <strong>On Twin Sharing Basis</strong>
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        1 Night / 2 Days
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        2 Nights / 3 Days
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        3 Nights / 4 Days
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td data-title="Category">Super Premium Tents</td>
-                      <td>
-                        <strike>₹10800</strike>
-                        ₹8100
-                      </td>
-                      <td>₹7000</td>
-                      <td>
-                        <strike>₹18500</strike>
-                        ₹13875
-                      </td>
-                      <td>₹11100</td>
-                      <td>
-                        <strike>₹27250</strike>
-                        ₹20438
-                      </td>
-                      <td>₹16300</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">The Premium Tents</td>
-                      <td>
-                        <strike>₹9499</strike>
-                        ₹7350
-                      </td>
-                      <td>₹6300</td>
-                      <td>
-                        <strike>₹17500</strike>
-                        ₹13125
-                      </td>
-                      <td>₹10500</td>
-                      <td>
-                        <strike>₹26250</strike>
-                        ₹19688
-                      </td>
-                      <td>₹15700</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Deluxe AC Swiss Cottages</td>
-                      <td>
-                        <strike>₹7999</strike>
-                        ₹6150
-                      </td>
-                      <td>₹5300</td>
-                      <td>
-                        <strike>₹15400</strike>
-                        ₹11550
-                      </td>
-                      <td>₹9200</td>
-                      <td>
-                        <strike>₹23100</strike>
-                        ₹17325
-                      </td>
-                      <td>₹13800</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Non-AC Swiss Cottages</td>
-                      <td>
-                        <strike>₹6600</strike>
-                        ₹4950
-                      </td>
-                      <td>₹4200</td>
-                      <td>
-                        <strike>₹13200</strike>
-                        ₹9900
-                      </td>
-                      <td>₹7900</td>
-                      <td>
-                        <strike>₹19800</strike>
-                        ₹14850
-                      </td>
-                      <td>₹11800</td>
-                    </tr>
-                  </tbody>
-                </table>
                 <table
                   className="table table-striped table-bordered"
                   style={{ minWidth: "100px" }}
@@ -470,8 +364,10 @@ function Kachchh() {
                         bgcolor="#F4F4F4"
                         height="44"
                       >
-                        Tariff for Dec &amp; Jan (22nd Dec 2023 - 31st Dec 2023)
-                        &amp; Full Moon
+                        <p className="text-center">
+                          Tariff for Dec &amp; Jan (22nd Dec 2023 - 31st Dec
+                          2023) &amp; Full Moon
+                        </p>
                       </th>
                     </tr>
                     <tr>
@@ -562,7 +458,7 @@ function Kachchh() {
                         bgcolor="#F4F4F4"
                         height="44"
                       >
-                        All Day
+                        <p className="text-center">All Day</p>
                       </th>
                     </tr>
                     <tr>
