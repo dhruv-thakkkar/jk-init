@@ -299,7 +299,10 @@ function Navbar() {
               </div>
               <div className="nav-item border-0 d-none d-lg-inline-block align-self-center">
                 {" "}
-                <a href="#" className=" btn btn-sm btn-grad text-white mb-0">
+                <a
+                  href="/white-rann-of-kachchh#kachh-booking"
+                  className=" btn btn-sm btn-grad text-white mb-0"
+                >
                   Online Booking
                 </a>{" "}
               </div>

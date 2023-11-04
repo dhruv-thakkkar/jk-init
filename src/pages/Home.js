@@ -1,27 +1,10 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useLayoutEffect } from "react";
 
 function Home() {
-  const [Data, setData] = useState([]);
-  const fetchData = () => {
-    const params = { random: 3 };
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
-    var url = "http://localhost:3000/api/v1/packages/get-package";
-    axios
-      .post(url, params)
-      .then((response) => {
-        if (response.data) {
-          setData((e) => response.data);
-        }
-      })
-      .catch((error) => {
-        if (error.response) {
-        }
-      });
-  };
-  useEffect(() => {
-    fetchData();
-  }, []);
   return (
     <div>
       <section className="p-0 height-700 parallax-bg home-banner-img">
@@ -30,7 +13,7 @@ function Home() {
             <div className="col-md-8 mb-7">
               <h4>JK TRAVEL WORLD</h4>
               <h1 className="display-4 font-weight-bold">
-              Top Tour And Travel Agency In Ahmedabad.
+                Top Tour And Travel Agency In Ahmedabad.
               </h1>
             </div>
           </div>

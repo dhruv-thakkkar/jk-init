@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useLayoutEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 function Kachchh() {
@@ -31,10 +31,10 @@ function Kachchh() {
     if (!nmErr && !phErr) {
       emailjs
         .sendForm(
-          "service_62l1oae",
-          "template_8epk9ui",
+          "service_v9zn2ll",
+          "template_39wtvxi",
           form.current,
-          "fISjZfU8ZTTcW7WlU"
+          "jrkLYS4T7WvckjHGh"
         )
         .then(
           (result) => {
@@ -77,6 +77,11 @@ function Kachchh() {
       setPhError(false);
     }
   };
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div>
       <div
@@ -502,7 +507,9 @@ function Kachchh() {
                       <td>₹30000</td>
                     </tr>
                     <tr>
-                      <td data-title="Category">Rajwadi Suite (2Pax)</td>
+                      <td id="kachh-booking" data-title="Category">
+                        Rajwadi Suite (2Pax)
+                      </td>
                       <td>₹30,000</td>
                       <td>₹7,500</td>
                       <td>₹55,000</td>
