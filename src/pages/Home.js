@@ -1,10 +1,6 @@
-import React, { useLayoutEffect } from "react";
+import React from "react";
 
 function Home() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <section className="p-0 height-700 parallax-bg home-banner-img">

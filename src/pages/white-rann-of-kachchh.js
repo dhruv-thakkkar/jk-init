@@ -1,4 +1,4 @@
-import React, { useState, useRef, useLayoutEffect } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 function Kachchh() {
@@ -77,10 +77,6 @@ function Kachchh() {
       setPhError(false);
     }
   };
-
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
 
   return (
     <div>

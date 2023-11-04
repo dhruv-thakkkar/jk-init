@@ -132,13 +132,16 @@ function Navbar() {
         </div>
         <nav className="navbar navbar-expand-lg">
           <div className="container">
-            <Link className="navbar-brand" to="/">
+            <a
+              className="navbar-brand"
+              href="/white-rann-of-kachchh#kachh-booking"
+            >
               <div className="jk-text">𝐉𝐊 𝐓𝐑𝐀𝐕𝐄𝐋 𝐖𝐎𝐑𝐋𝐃</div>
               {/* <img
                 src="http://localhost:4000/assets/images/logo-header.png"
                 alt="travelgo"
               /> */}{" "}
-            </Link>
+            </a>
             <button
               className="navbar-toggler ml-auto"
               type="button"
@@ -154,18 +157,18 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                  <Link id="demosMenu1" className="nav-link" to="/">
+                  <a id="demosMenu1" className="nav-link" href="/">
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     id="demosMenu1"
                     className="nav-link"
-                    to="/white-rann-of-kachchh"
+                    href="/white-rann-of-kachchh"
                   >
                     White Rann Of Kachchh (Rann Utsav)
-                  </Link>
+                  </a>
                 </li>
                 {/* <li className="nav-item dropdown megamenu">
                   <a
