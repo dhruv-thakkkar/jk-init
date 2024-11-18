@@ -183,7 +183,7 @@ function Kachchh() {
                     </tr>
                     <tr>
                       <td className="td-center" rowSpan="2">
-                        Rates (INR) Per Person
+                        Rates (INR) Per Person{"\n"}
                         <strong>On Twin Sharing Basis</strong>
                       </td>
                       <td className="td-center" colSpan="2">
