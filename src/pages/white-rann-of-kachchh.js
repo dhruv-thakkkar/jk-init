@@ -148,7 +148,7 @@ function Kachchh() {
           padding: "40px 0",
         }}
       >
-        <div className="container">
+        <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-10">
               <h1

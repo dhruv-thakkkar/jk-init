@@ -3,7 +3,7 @@ import React from "react";
 const Packages = () => {
   return (
     <section class="bg-smoke py-8 py-lg-12">
-    <div class="container-fluid">
+    <div class="container">
       <div class="text-center section-title">
         <h2 class="text-uppercase font-weight-bold position-relative">
           <span class="bg-smoke">
