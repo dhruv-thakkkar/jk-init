@@ -183,7 +183,7 @@ function Kachchh() {
                     </tr>
                     <tr>
                       <td className="td-center" rowSpan="2">
-                        Rates (INR) Per Person <br/>
+                        Rates (INR) Per Person <br />
                         <strong>On Twin Sharing Basis</strong>
                       </td>
                       <td className="td-center" colSpan="2">
@@ -279,6 +279,7 @@ function Kachchh() {
                     <tr>
                       <td className="td-center" rowSpan="2">
                         Rates (INR) Per Person
+                        <br />
                         <strong>On Twin Sharing Basis</strong>
                       </td>
                       <td className="td-center" colSpan="2">
@@ -373,6 +374,7 @@ function Kachchh() {
                     <tr>
                       <td className="td-center" rowSpan="2">
                         Rates (INR) Per Person
+                        <br />
                         <strong>On Twin Sharing Basis</strong>
                       </td>
                       <td className="td-center" colSpan="2">
