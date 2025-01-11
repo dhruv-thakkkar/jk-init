@@ -16,7 +16,7 @@ const FAB = () => {
             width: "69px",
           }}
           src="assets/images/WhatsApp.svg"
-          alt=""
+          alt="whatsapp-icon"
         />
       </a>
     </div>
