@@ -8,7 +8,7 @@ const FAB = () => {
           backgroundColor: "transparent",
         }}
         target="_blank"
-        href="https://wa.me/9898393221?text=I%20have%an%20inquiry!"
+        href="https://wa.me/9898393221?text=Hi,%20I%20have%20an%20inquiry!"
       >
         <img
           style={{
