@@ -170,6 +170,17 @@ function Navbar() {
                     White Rann Of Kachchh (Rann Utsav)
                   </a>
                 </li>
+                <li className="nav-item">
+                  <a
+                    id="demosMenu1"
+                    className="nav-link"
+                    href="/chardham-yatra"
+                  >
+                    Chardham Yatra
+                  </a>
+                </li>
+
+
                 {/* <li className="nav-item dropdown megamenu">
                   <a
                     className="nav-link dropdown-toggle"
