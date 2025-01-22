@@ -12,7 +12,8 @@ function App() {
         <Navbar />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Chardham />} />
+        <Route path="/about-us" element={<Home />} />
         <Route path="white-rann-of-kachchh" element={<Kachchh />} />
         <Route path="chardham-yatra" element={<Chardham />} />
       </Routes>
