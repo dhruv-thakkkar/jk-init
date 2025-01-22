@@ -156,8 +156,7 @@ function Chardham() {
                       >
                         <p className="text-center">
                           {" "}
-                          Tariff for Nov 2024, Feb & March 2025 (Excluding Full
-                          Moon)
+                          Daily Departure from May 2025
                         </p>
                       </th>
                     </tr>
