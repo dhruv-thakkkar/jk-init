@@ -188,9 +188,9 @@ function Chardham() {
                       <td data-title="Category"><strong>Ahmedabad</strong><br/>
                       (With 3AC Rajdhani train both sides ticket)
                       </td>
-                      <td>₹32,699</td>
-                      <td>₹34,699</td>
-                      <td>₹36,699</td>
+                      <td>₹35,199</td>
+                      <td>₹37,199</td>
+                      <td>₹39,199</td>
                     </tr>
                   </tbody>
                 </table>
@@ -198,6 +198,7 @@ function Chardham() {
             </div>
           </div>
         </div>
+        <p><strong>Note: Including Breakfast & Lunch</strong></p>
       </section>
 
       <section style={{ padding: "50px 0", background: "#f8f9fa" }}>
