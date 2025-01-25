@@ -154,10 +154,10 @@ function Chardham() {
                         bgcolor="#f4f4f4"
                         height="44"
                       >
-                        <p className="text-center">
+                        <h1 className="text-center">
                           {" "}
                           Daily Departure from May 2025
-                        </p>
+                        </h1>
                       </th>
                     </tr>
                     <tr>
@@ -197,8 +197,9 @@ function Chardham() {
               </div>
             </div>
           </div>
+          <p class="text-center"><strong>Note: Including Breakfast & Lunch</strong></p>
         </div>
-        <p><strong>Note: Including Breakfast & Lunch</strong></p>
+
       </section>
 
       <section style={{ padding: "50px 0", background: "#f8f9fa" }}>
