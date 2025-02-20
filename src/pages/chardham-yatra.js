@@ -197,7 +197,7 @@ function Chardham() {
               </div>
             </div>
           </div>
-          <p class="text-center"><strong>Note: Including Breakfast & Lunch</strong></p>
+          <p class="text-center"><strong>Note: Including Breakfast, Lunch & Dinner</strong></p>
         </div>
 
       </section>
