@@ -149,8 +149,8 @@ function Chardham() {
                     target="_blank"
                     href="assets/downloads/chardham-2025-jktw-eng.pdf"
                   >
-                    <p className="fa-solid fa-download fa-beat-fade">&nbsp;</p>
-                    <blink>Download Brochure In English</blink>
+                    <i className="text-secondary fa-solid fa-download fa-beat-fade">&nbsp;</i>
+                    <span className="text-secondary">Download Brochure In English</span>
                   </a>
                 </div>
                 <div className="col-3 mt-3">
@@ -158,8 +158,8 @@ function Chardham() {
                     target="_blank"
                     href="assets/downloads/chardham-2025-jktw-guj.pdf"
                   >
-                    <p className="fa-solid fa-download fa-beat-fade">&nbsp;</p>
-                    Download Brochure In Gujarati
+                    <i className="text-secondary fa-solid fa-download fa-beat-fade">&nbsp;</i>
+                    <span className="text-secondary">Download Brochure In Gujarati</span>
                   </a>
                 </div>
               </div>
