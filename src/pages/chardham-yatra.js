@@ -132,7 +132,7 @@ function Chardham() {
           <div className="row justify-content-center">
             <div className="col-10">
               <div className="row">
-                <div className="col-9">
+                <div className="col-6">
                   <h1
                     style={{
                       fontSize: "2.5rem",
@@ -144,19 +144,21 @@ function Chardham() {
                     <u>Chardham Yatra Package</u>
                   </h1>
                 </div>
-                <div className="col-3">
+                <div className="col-3 mt-3">
                   <a
                     target="_blank"
                     href="assets/downloads/chardham-2025-jktw-eng.pdf"
                   >
-                    <p className="fas fa-download">&nbsp;</p>
-                    Download Brochure In English
+                    <p className="fa-solid fa-download fa-beat-fade">&nbsp;</p>
+                    <blink>Download Brochure In English</blink>
                   </a>
+                </div>
+                <div className="col-3 mt-3">
                   <a
                     target="_blank"
                     href="assets/downloads/chardham-2025-jktw-guj.pdf"
                   >
-                    <p className="fas fa-download">&nbsp;</p>
+                    <p className="fa-solid fa-download fa-beat-fade">&nbsp;</p>
                     Download Brochure In Gujarati
                   </a>
                 </div>
