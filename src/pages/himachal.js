@@ -141,13 +141,13 @@ function Kachchh() {
             <div className="col-4 mt-3">
               <a
                 target="_blank"
-                href="assets/downloads/chardham-2025-jktw-guj.pdf"
+                href="assets/downloads/himachal-2025-jktw-eng"
               >
                 <i className="text-secondary fa-solid fa-download fa-beat-fade">
                   &nbsp;
                 </i>
                 <span className="text-secondary">
-                  Download Brochure In Gujarati
+                  Download Brochure
                 </span>
               </a>
             </div>
