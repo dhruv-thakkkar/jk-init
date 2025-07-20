@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Fab from "./components/Fab";
 import Kachchh from "./pages/white-rann-of-kachchh";
 import Chardham from "./pages/chardham-yatra";
+import Himachal from "./pages/himachal";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Chardham />} />
         <Route path="/about-us" element={<Home />} />
         <Route path="white-rann-of-kachchh" element={<Kachchh />} />
+        <Route path="himachal" element={<Himachal />} />
         <Route path="chardham-yatra" element={<Chardham />} />
       </Routes>
       <Footer />

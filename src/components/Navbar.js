@@ -173,6 +173,11 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
+                  <a id="demosMenu1" className="nav-link" href="/himachal">
+                    Himachal
+                  </a>
+                </li>
+                <li className="nav-item">
                   <a id="demosMenu1" className="nav-link" href="/about-us">
                     About Us
                   </a>
