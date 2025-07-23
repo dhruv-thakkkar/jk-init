@@ -324,12 +324,6 @@ function Kachchh() {
                     <td>Shimla Havens Resorts</td>
                   </tr>
                   <tr>
-                    <td>Sissu (1N)</td>
-                    <td>Welina</td>
-                    <td>Welina</td>
-                    <td>Welina</td>
-                  </tr>
-                  <tr>
                     <td>Manali (3N)</td>
                     <td>Hotel Avenue</td>
                     <td>Royal Park</td>

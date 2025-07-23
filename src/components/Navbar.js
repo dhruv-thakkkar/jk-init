@@ -172,11 +172,43 @@ function Navbar() {
                     White Rann Of Kachchh (Rann Utsav)
                   </a>
                 </li>
-                <li className="nav-item">
+
+                <li class="nav-item dropdown">
+                  {" "}
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="docMenu"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    More
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="docMenu">
+                    <li>
+                      <a class="dropdown-item" href="/himachal">
+                        Himachal
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/dubai">
+                        Dubai
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                {/* <li className="nav-item">
                   <a id="demosMenu1" className="nav-link" href="/himachal">
                     Himachal
                   </a>
-                </li>
+                </li> */}
+                {/* <li className="nav-item">
+                  <a id="demosMenu1" className="nav-link" href="/dubai">
+                    Dubai
+                  </a>
+                </li> */}
                 <li className="nav-item">
                   <a id="demosMenu1" className="nav-link" href="/about-us">
                     About Us
