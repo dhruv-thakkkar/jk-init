@@ -151,8 +151,8 @@ function Chardham() {
                     target="_blank"
                     href="assets/downloads/chardham-2025-jktw-guj.pdf"
                   >
-                    <i className="text-secondary fa-solid fa-download fa-beat-fade">&nbsp;</i>
-                    <span className="text-secondary">Download Brochure In Gujarati</span>
+                    <i className="text-danger fa-solid fa-download fa-beat-fade">&nbsp;</i>
+                    <span className="text-danger">Download Brochure In Gujarati</span>
                   </a>
                 </div>
               </div>

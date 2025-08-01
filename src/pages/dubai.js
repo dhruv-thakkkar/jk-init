@@ -142,10 +142,10 @@ function Kachchh() {
                 target="_blank"
                 href="assets/downloads/dubai-2025-jktw-eng.pdf"
               >
-                <i className="text-secondary fa-solid fa-download fa-beat-fade">
+                <i className="text-danger fa-solid fa-download fa-beat-fade">
                   &nbsp;
                 </i>
-                <span className="text-secondary">Download Brochure</span>
+                <span className="text-danger">Download Brochure</span>
               </a>
             </div>
           </div>

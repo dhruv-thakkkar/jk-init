@@ -7,6 +7,7 @@ import Kachchh from "./pages/white-rann-of-kachchh";
 import Chardham from "./pages/chardham-yatra";
 import Dubai from "./pages/dubai";
 import Himachal from "./pages/himachal";
+import Bhutan from "./pages/bhutan";
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
         <Route path="chardham-yatra" element={<Chardham />} />
         <Route path="himachal" element={<Himachal />} />
         <Route path="dubai" element={<Dubai />} />
+        <Route path="bhutan" element={<Bhutan />} />
       </Routes>
       <Footer />
       <Fab />

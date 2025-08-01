@@ -196,6 +196,11 @@ function Navbar() {
                         Dubai
                       </a>
                     </li>
+                    <li>
+                      <a class="dropdown-item" href="/bhutan">
+                        Bhutan
+                      </a>
+                    </li>
                   </ul>
                 </li>
 
