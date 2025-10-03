@@ -12,10 +12,12 @@ const FAB = () => {
       >
         <img
           style={{
+            marginBottom: "10px",
+            marginRight: "10px",
             height: "79px",
             width: "59x",
           }}
-          src="assets/images/whatsapp1.png"
+          src="assets/images/whatsapp2.png"
           alt="whatsapp-icon"
         />
       </a>

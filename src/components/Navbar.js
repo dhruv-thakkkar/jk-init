@@ -183,7 +183,7 @@ function Navbar() {
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    More
+                    Other Tours
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="docMenu">
                     <li>
@@ -215,7 +215,7 @@ function Navbar() {
                   </a>
                 </li> */}
                 <li className="nav-item">
-                  <a id="demosMenu1" className="nav-link" href="/about-us">
+                  <a id="demosMenu1" className="nav-link" href="/">
                     About Us
                   </a>
                 </li>

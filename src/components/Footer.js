@@ -8,11 +8,22 @@ const Footer = () => {
             <div className="col-md-3 col-sm-6 order-sm-1">
               <div className="widget address">
                 <div className="text-uppercase font-weight-bold">
-                  JK TRAVEL WORLD
+                  From j k travel wOrld - Best Tour Operator
                 </div>
                 <p>
-                  is one of the leading businesses in the Tour Operators. Also
-                  known for Flight/Rail bookings & Tour Packages.
+                  Searching for the
+                  top 10 tour operator in Ahmedabad? Welcome to J K TRAVEL
+                  WORLD, your trusted Ahmedabad travel agency. Recognized as the
+                  best travel agency and Tour Operator in Ahmedabad, we are at
+                  your service since 2007, offering complete travel solutions –
+                  Flight booking, railway tickets, tourist visa assistance,
+                  travel insurance, cab rentals, and tempo traveller services.
+                  Our expert travel agents in Ahmedabad design tailor-made
+                  domestic & international packages for family holidays,
+                  honeymoons, pilgrimages, or corporate tours. If you’re looking
+                  for a reliable travel agency in Ahmedabad, We ensures
+                  hassle-free services with the best deals. Click Whatsapp Icon
+                  to Get in touch to chat with us
                 </p>
               </div>
             </div>
