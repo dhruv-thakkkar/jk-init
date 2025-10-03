@@ -159,9 +159,11 @@ function Kachchh() {
                 }}
                 className="font-weight-bold mb-3"
               >
-                <u>Rann Utsav Package 2024-25</u>
+                <u>Rann Utsav Package 2025-26</u>
               </h1>
+
               <div className="" style={{ overflow: "auto" }}>
+                {/* Tariff Table */}
                 <table
                   className="table table-striped table-bordered"
                   style={{ minWidth: "100px" }}
@@ -169,15 +171,14 @@ function Kachchh() {
                   <thead>
                     <tr>
                       <th
-                        className="month-ttl"
                         colSpan="12"
                         bgcolor="#f4f4f4"
                         height="44"
+                        className="month-ttl"
                       >
                         <p className="text-center">
-                          {" "}
-                          Tariff for Nov 2024, Feb & March 2025 (Excluding Full
-                          Moon)
+                          Tariff For Oct, Nov, Feb & March 2025-26 (Excluding
+                          Full Moon & Diwali)
                         </p>
                       </th>
                     </tr>
@@ -186,173 +187,45 @@ function Kachchh() {
                         Rates (INR) Per Person <br />
                         <strong>On Twin Sharing Basis</strong>
                       </td>
-                      <td className="td-center" colSpan="2">
-                        1 Night
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        2 Nights
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        3 Nights
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        4 Nights
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
+                      <td className="td-center">1 Night</td>
+                      <td className="td-center">2 Nights</td>
+                      <td className="td-center">3 Nights</td>
+                      <td className="td-center">Extra Mattress (Per Night)</td>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td data-title="Category">Super Premium Tent</td>
-                      <td>₹9,500</td>
-                      <td>₹5,000</td>
-                      <td>₹18,000</td>
-                      <td>₹10,000</td>
-                      <td>₹25,500</td>
-                      <td>₹15,000</td>
-                      <td>₹32,500</td>
-                      <td>₹20,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Premium Tent</td>
-                      <td>₹8,500</td>
-                      <td>₹5,000</td>
-                      <td>₹16,000</td>
-                      <td>₹10,000</td>
-                      <td>₹23,000</td>
-                      <td>₹15,000</td>
-                      <td>₹29,500</td>
-                      <td>₹20,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Deluxe AC Swiss Cottage</td>
-                      <td>₹7,500</td>
-                      <td>₹5,000</td>
-                      <td>₹14,000</td>
-                      <td>₹10,000</td>
-                      <td>₹12,000</td>
-                      <td>₹15,000</td>
-                      <td>₹25,500</td>
-                      <td>₹20,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Non-AC Swiss Cottage</td>
-                      <td>₹5,500</td>
-                      <td>₹4,000</td>
-                      <td>₹11,000</td>
-                      <td>₹8,000</td>
-                      <td>₹14,500</td>
-                      <td>₹12,000</td>
+                      <td>Super Premium Tent</td>
+                      <td>₹9,900</td>
                       <td>₹19,000</td>
-                      <td>₹16,000</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table
-                  className="table table-striped table-bordered"
-                  style={{ minWidth: "100px" }}
-                >
-                  <thead>
-                    <tr>
-                      <th
-                        className="month-ttl"
-                        colSpan="12"
-                        bgcolor="#F4F4F4"
-                        height="44"
-                      >
-                        <p className="text-center">
-                          {" "}
-                          Tariff for Nov 2024, Feb & March 2025 (Full Moon) |
-                          Dec & Jan (Excluding Full Moon & Christmas Period)
-                        </p>
-                      </th>
+                      <td>₹27,500</td>
+                      <td>₹5,250</td>
                     </tr>
                     <tr>
-                      <td className="td-center" rowSpan="2">
-                        Rates (INR) Per Person
-                        <br />
-                        <strong>On Twin Sharing Basis</strong>
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        1 Night
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        2 Nights
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        3 Nights
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        4 Nights
-                      </td>
+                      <td>Premium Tent</td>
+                      <td>₹8,900</td>
+                      <td>₹17,000</td>
+                      <td>₹25,000</td>
+                      <td>₹5,250</td>
                     </tr>
                     <tr>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
+                      <td>Deluxe AC Swiss Cottage</td>
+                      <td>₹7,900</td>
+                      <td>₹15,500</td>
+                      <td>₹22,000</td>
+                      <td>₹5,250</td>
                     </tr>
-                  </thead>
-                  <tbody>
                     <tr>
-                      <td data-title="Category">Super Premium Tent</td>
+                      <td>Non-AC Swiss Cottage</td>
+                      <td>₹5,900</td>
                       <td>₹11,500</td>
-                      <td>₹5,500</td>
-                      <td>₹21,500</td>
-                      <td>₹11,000</td>
-                      <td>₹30,000</td>
-                      <td>₹16,500</td>
-                      <td>₹40,000</td>
-                      <td>₹22,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Premium Tent</td>
-                      <td>₹10,500</td>
-                      <td>₹5,500</td>
-                      <td>₹21,500</td>
-                      <td>₹11,000</td>
-                      <td>₹30,000</td>
-                      <td>₹16,500</td>
-                      <td>₹40,000</td>
-                      <td>₹22,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Deluxe AC Swiss Cottage</td>
-                      <td>₹9,000</td>
-                      <td>₹5,500</td>
-                      <td>₹16,500</td>
-                      <td>₹11,000</td>
-                      <td>₹23,000</td>
-                      <td>₹16,500</td>
-                      <td>₹30,000</td>
-                      <td>₹22,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Non-AC Swiss Cottage</td>
-                      <td>₹7,000</td>
-                      <td>₹4,500</td>
-                      <td>₹13,000</td>
-                      <td>₹9,000</td>
-                      <td>₹17,500</td>
-                      <td>₹13,500</td>
-                      <td>₹23,500</td>
-                      <td>₹18,000</td>
+                      <td>₹16,000</td>
+                      <td>₹4,250</td>
                     </tr>
                   </tbody>
                 </table>
+
+                {/* Additional Charges */}
                 <table
                   className="table table-striped table-bordered"
                   style={{ minWidth: "100px" }}
@@ -360,164 +233,101 @@ function Kachchh() {
                   <thead>
                     <tr>
                       <th
-                        className="month-ttl"
                         colSpan="12"
                         bgcolor="#F4F4F4"
                         height="44"
+                        className="month-ttl"
                       >
-                        <p className="text-center">
-                          Tariff for Dec 2024 & Jan 2025 (20th Dec 2024 – 31st
-                          Dec 2024) & Full Moon
-                        </p>
+                        <p className="text-center">Additional Charges</p>
                       </th>
                     </tr>
                     <tr>
-                      <td className="td-center" rowSpan="2">
-                        Rates (INR) Per Person
-                        <br />
-                        <strong>On Twin Sharing Basis</strong>
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        1 Night
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        2 Nights
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        3 Nights
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        4 Nights
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rate (Per Person)</td>
-                      <td className="td-color">Extra Matress</td>
+                      <td className="td-center">Category</td>
+                      <td className="td-center">1 Night</td>
+                      <td className="td-center">2 Nights</td>
+                      <td className="td-center">3 Nights</td>
+                      <td className="td-center">Extra Mattress (Per Night)</td>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td data-title="Category">Super Premium Tent</td>
-                      <td>₹13,000</td>
-                      <td>₹5,500</td>
-                      <td>₹23,500</td>
-                      <td>₹11,000</td>
-                      <td>₹34,000</td>
-                      <td>₹16,500</td>
-                      <td>₹44,000</td>
-                      <td>₹22,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Premium Tent</td>
-                      <td>₹12,000</td>
-                      <td>₹5,500</td>
-                      <td>₹21,500</td>
-                      <td>₹11,000</td>
-                      <td>₹31,000</td>
-                      <td>₹16,500</td>
-                      <td>₹40,000</td>
-                      <td>₹22,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Deluxe AC Swiss Cottage</td>
-                      <td>₹10,500</td>
-                      <td>₹5,500</td>
-                      <td>₹18,500</td>
-                      <td>₹11,000</td>
-                      <td>₹25,500</td>
-                      <td>₹16,500</td>
-                      <td>₹34,500</td>
-                      <td>₹21,000</td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">Non-AC Swiss Cottage</td>
-                      <td>₹8,500</td>
+                      <td>
+                        Additional Tariff For Oct, Nov, Feb & Mar <br />
+                        (Full Moon & Diwali: 23rd Oct to 26th Oct) | Dec & Jan
+                        (Excl. Full Moon & Christmas)
+                      </td>
+                      <td>₹2,000</td>
+                      <td>₹3,500</td>
                       <td>₹4,500</td>
-                      <td>₹15,000</td>
-                      <td>₹9,000</td>
-                      <td>₹21,500</td>
-                      <td>₹13,500</td>
-                      <td>₹29,500</td>
-                      <td>₹18,000</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table
-                  className="table table-striped table-bordered"
-                  style={{ minWidth: "100px" }}
-                >
-                  <thead>
-                    <tr>
-                      <th
-                        className="month-ttl"
-                        colSpan="12"
-                        bgcolor="#F4F4F4"
-                        height="44"
-                      >
-                        <p className="text-center">All Day</p>
-                      </th>
-                    </tr>
-                    <tr>
-                      <td className="td-center" rowSpan="2">
-                        Rates (INR)
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        1 Night
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        2 Nights
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        3 Nights
-                      </td>
-                      <td className="td-center" colSpan="2">
-                        4 Nights
+                      <td>
+                        ₹5,750 (Super Premium, Premium, Deluxe AC) <br />
+                        ₹4,750 (Non-AC Swiss Cottage)
                       </td>
                     </tr>
                     <tr>
-                      <td className="td-color">Rates</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rates</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rates</td>
-                      <td className="td-color">Extra Matress</td>
-                      <td className="td-color">Rates</td>
-                      <td className="td-color">Extra Matress</td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td data-title="Category">Darbari Suite (4Pax)</td>
-                      <td>₹55,000</td>
+                      <td>
+                        Additional Tariff For Dec & Jan <br />
+                        (19th Dec 2025 - 1st Jan 2026) & Full Moon (Dec & Jan)
+                      </td>
+                      <td>₹4,000</td>
+                      <td>₹5,500</td>
                       <td>₹7,500</td>
-                      <td>₹99,000</td>
-                      <td>₹15,000</td>
+                      <td>
+                        ₹5,750 (Super Premium, Premium, Deluxe AC) <br />
+                        ₹4,750 (Non-AC Swiss Cottage)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                {/* Suites */}
+                <table
+                  className="table table-striped table-bordered"
+                  style={{ minWidth: "100px" }}
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        colSpan="12"
+                        bgcolor="#F4F4F4"
+                        height="44"
+                        className="month-ttl"
+                      >
+                        <p className="text-center">All Days</p>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td className="td-center">Category</td>
+                      <td className="td-center">1 Night</td>
+                      <td className="td-center">2 Nights</td>
+                      <td className="td-center">3 Nights</td>
+                      <td className="td-center">Extra Mattress (Per Night)</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Darbari Suite (4 Pax)</td>
+                      <td>₹70,000</td>
                       <td>₹140,000</td>
-                      <td>₹22,500</td>
-                      <td>₹180,000</td>
-                      <td>₹30000</td>
+                      <td>₹210,000</td>
+                      <td>₹7,750</td>
                     </tr>
                     <tr>
-                      <td id="kachh-booking" data-title="Category">
-                        Rajwadi Suite (2Pax)
-                      </td>
-                      <td>₹30,000</td>
-                      <td>₹7,500</td>
-                      <td>₹55,000</td>
-                      <td>₹15,000</td>
-                      <td>₹75,000</td>
-                      <td>₹22,500</td>
-                      <td>₹92,000</td>
-                      <td>₹30,000</td>
+                      <td>Rajwadi Suite (2 Pax)</td>
+                      <td>₹35,000</td>
+                      <td>₹70,000</td>
+                      <td>₹105,000</td>
+                      <td>₹7,750</td>
                     </tr>
                   </tbody>
                 </table>
+
+                {/* Notes */}
+                <p style={{ marginTop: "20px", fontSize: "14px" }}>
+                  * All Rates are exclusive of taxes <br />
+                  * Children below 6 years will be complimentary <br />* Rates
+                  on single occupancy are 75% of double occupancy cost
+                </p>
               </div>
             </div>
           </div>
