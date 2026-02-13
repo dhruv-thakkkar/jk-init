@@ -144,15 +144,37 @@ function Chardham() {
                     <u>Chardham Yatra Package</u>
                   </h1>
                 </div>
-                <div className="col-3 mt-3">
-                </div>
-                <div className="col-3 mt-3">
+                <div className="col-2 mt-2"></div>
+                <div className="col-4 mt-3">
                   <a
                     target="_blank"
-                    href="assets/downloads/chardham-2025-jktw-guj.pdf"
+                    href="assets/downloads/chardham-2026-jktw-guj.pdf"
+                    style={{ fontSize: "1.2rem" }}
                   >
-                    <i className="text-danger fa-solid fa-download fa-beat-fade">&nbsp;</i>
-                    <span className="text-danger">Download Brochure In Gujarati</span>
+                    <i
+                      className="text-danger fa-solid fa-download fa-beat-fade"
+                      style={{ fontSize: "1.5rem" }}
+                    >
+                      &nbsp;
+                    </i>
+                    <span className="text-danger">
+                      Download Brochure In Gujarati
+                    </span>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="assets/downloads/chardham-2026-jktw-guj.pdf"
+                    style={{ fontSize: "1.2rem" }}
+                  >
+                    <i
+                      className="text-danger fa-solid fa-download fa-beat-fade mt-4"
+                      style={{ fontSize: "1.5rem" }}
+                    >
+                      &nbsp;
+                    </i>
+                    <span className="text-danger">
+                      Download Brochure In English
+                    </span>
                   </a>
                 </div>
               </div>
@@ -171,10 +193,7 @@ function Chardham() {
                       >
                         <p class="text-center">Delux Hotels</p>
                         <p class="text-center">
-                          Fixed Departure 8th Sept-2025 & 3rd Oct-2025
-                        </p>
-                        <p class="text-center">
-                          Cost Per Person (2X2 Bus/Tempo Traveller)
+                          Fixed Departure 10th May, 26th May -2026 3rd June-2026
                         </p>
                       </th>
                     </tr>
@@ -201,61 +220,19 @@ function Chardham() {
                         <strong>Haridwar To Haridwar</strong>
                       </td>
                       <td className="text-center">
-                        1 Room on Four Sharing <br />
-                        (1 Double Bed with 2 Extra Matress)
-                        <br />₹ 27,499 Per Person
-                      </td>
-                      <td className="text-center">
-                        1 Room on Three Sharing <br />
-                        (1 Double Bed with 1 Extra Matress)
-                        <br />₹ 29,499 Per Person
-                      </td>
-                      <td className="text-center">
-                        1 Room on Double Sharing <br />₹ 31,499 Per Person
-                      </td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">
-                        <strong>Delhi To Delhi</strong>
-                      </td>
-                      <td className="text-center">
-                        1 Room on Four Sharing <br />
-                        (1 Double Bed with 2 Extra Matress) <br />₹ 29,499 Per
-                        Person
-                      </td>
-                      <td className="text-center">
-                        1 Room on Four Sharing <br />
-                        (1 Double Bed with 1 Extra Matress)
-                        <br />₹ 31,499 Per Person{" "}
-                      </td>
-                      <td className="text-center">
-                        1 Room on Double Sharing <br />₹ 33,499 Per Person
-                      </td>
-                    </tr>
-                    <tr>
-                      <td data-title="Category">
-                        <strong>Ex Ahmedabad</strong>
+                        ₹ 28,500 Per Person (with 2 Extra Mattress)
                         <br />
-                        (With 3AC Rajdhani ticket)
                       </td>
                       <td className="text-center">
-                        1 Room on Four Sharing <br />
-                        (1 Double Bed with 2 Extra Matress)
-                        <br />₹ 33,499 Per Person
+                        ₹ 30,500 Per Person (with 1 Extra Mattress)
+                        <br />
                       </td>
-                      <td className="text-center">
-                        1 Room on Four Sharing <br />
-                        (1 Double Bed with 1 Extra Matress)
-                        <br />₹ 35,499 Per Person{" "}
-                      </td>
-                      <td className="text-center">
-                        1 Room on Double Sharing <br />₹ 37,499 Per Person
-                      </td>
+                      <td className="text-center">₹ 32,500 Per Person</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-            </div>  
+            </div>
           </div>
 
           <p class="text-center">
