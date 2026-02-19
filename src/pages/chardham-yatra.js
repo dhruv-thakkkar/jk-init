@@ -163,7 +163,7 @@ function Chardham() {
                   </a>
                   <a
                     target="_blank"
-                    href="assets/downloads/chardham-2026-jktw-guj.pdf"
+                    href="assets/downloads/chardham-2026-jktw-eng.pdf"
                     style={{ fontSize: "1.2rem" }}
                   >
                     <i
