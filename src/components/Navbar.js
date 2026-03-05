@@ -40,7 +40,7 @@ function Navbar() {
                 <ul className="nav list-unstyled ml-3">
                   <li className="nav-item mr-3">
                     {" "}
-                    <a className="navbar-link" href="tel:+919898393221">
+                    <a className="navbar-link" href="tel:+917016118694">
                       <strong>Phone:</strong>{" "}
                       {process.env.REACT_APP_PHONE_NUMBER}
                     </a>{" "}
@@ -162,8 +162,17 @@ function Navbar() {
                     Chardham Yatra
                   </a>
                 </li>
+                 <li className="nav-item">
+                  <a
+                    id="demosMenu1"
+                    className="nav-link"
+                    href="/himachal"
+                  >
+                    Himachal
+                  </a>
+                </li>
 
-                <li className="nav-item">
+                {/* {<li className="nav-item">
                   <a
                     id="demosMenu1"
                     className="nav-link"
@@ -171,9 +180,9 @@ function Navbar() {
                   >
                     White Rann Of Kachchh (Rann Utsav)
                   </a>
-                </li>
+                </li>} */}
 
-                <li class="nav-item dropdown">
+               {/*  <li class="nav-item dropdown">
                   {" "}
                   <a
                     class="nav-link dropdown-toggle"
@@ -191,7 +200,7 @@ function Navbar() {
                         Himachal
                       </a>
                     </li>
-                    <li>
+                     <li>
                       <a class="dropdown-item" href="/dubai">
                         Dubai
                       </a>
@@ -200,9 +209,9 @@ function Navbar() {
                       <a class="dropdown-item" href="/bhutan">
                         Bhutan
                       </a>
-                    </li>
-                  </ul>
-                </li>
+                    </li> 
+                                      </ul>
+                </li> */}
 
                 {/* <li className="nav-item">
                   <a id="demosMenu1" className="nav-link" href="/himachal">
