@@ -156,7 +156,7 @@ const Footer = () => {
         <div className="container">
           <div className="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
             <div className="copyright-text">
-              ©2024-2025 All Rights Reserved by{" "}
+              ©2026-2027 All Rights Reserved by{" "}
               <a href="#!"> JK TRAVEL WORLD.</a>
             </div>
           </div>
