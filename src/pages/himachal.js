@@ -127,14 +127,7 @@ function Kachchh() {
             </div>
           </div>
 
-          <p>(Pickup & Drop: Delhi or Chandigarh)</p>
-          <p>(Valid for July, August & September)</p>
-          <p>Destination Covered: : Shimla (2N) – Manali (3N)</p>
-
-          {/* --- ALL DAY ITINERARY REMAINS EXACTLY SAME --- */}
-          {/* (Your Day 01 to Day 06 sections remain unchanged here) */}
-
-          <h4 className="mt-5"> Night Stay Details</h4>
+          <h4 className="mt-2"> Night Stay Details</h4>
 
           <table className="table table-bordered">
             <thead>
